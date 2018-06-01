@@ -1,7 +1,8 @@
 
 
 if (ServiceWorker) {
-   navigator.serviceWorker.register('http://localhost:8585/service-worker/sw.js').then(function (registration) {
+   //navigator.serviceWorker.register('http://localhost:8585/service-worker/sw.js').then(function (registration) {
+   navigator.serviceWorker.register('https://piyalcodes.github.io/progressive-web-apps/sw.js').then(function (registration) {
       console.log('Service worker registration succeeded:', registration);
    }).catch(function (error) {
       console.log('Service worker registration failed:', error);
